@@ -1,0 +1,22 @@
+#success_message{ display: none;}
+
+.error {
+    color: blue;
+    font-size: 80%;
+}
+.form-group.required .control-label:after { 
+    color: #d00;
+    content: "*";
+    position: absolute;
+    margin-left: 8px;
+    top:7px;
+}
+
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+
+
